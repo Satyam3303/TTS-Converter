@@ -1,6 +1,7 @@
 import './App.css';
 import { useSpeechSynthesis } from 'react-speech-kit';
 import { useState } from 'react';
+import Spinner from './Trademark/spinner';
 
 function App() {
   const [text, setText] = useState('');
@@ -32,7 +33,11 @@ function App() {
             ))}
           </select>
         </div>
-        <footer className='footer'>Made by Shivam</footer>
+        <footer className='footer'>
+             <Spinner/>
+
+         
+          Made by Shivam</footer>
       </div>
     </>
   );

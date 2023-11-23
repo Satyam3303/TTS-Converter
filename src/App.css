@@ -5,6 +5,8 @@
   height: 100vh;
   position: absolute;
   width: 100vw;
+  overflow: hidden;
+  font-family: cursive;
 }
 
 .App-logo {
@@ -62,8 +64,21 @@
 .footer{
   background-color: #d9dddf;
   position: absolute;
+  left: 98vw;
+  height: 50px;
+  font-family: cursive;
   width: 100vw;
   bottom: 0;
   color: #282c34;
   padding-bottom: 10px;
+  transition: all 0.5s;
 }
+
+.footer:hover{
+  height: auto;
+  transition: all 0.5s;
+  left: 0;
+}
+
+
+
