@@ -22,7 +22,7 @@ function App() {
     <>
       <div className='App'>
         <div>
-          <h1 className='App-header'>TTS CONVERTER</h1>
+          <h1 className='App-header'>TTS Application</h1>
           <textarea className="textAreaStyle" onChange={(e) => { setText(e.target.value) }}></textarea>
         </div>
         <div>
@@ -34,8 +34,9 @@ function App() {
           </select>
         </div>
         <footer className='footer'>
+          <div className='unique'>
              <Spinner/>
-
+             </div>
          
           Made by Shivam</footer>
       </div>
